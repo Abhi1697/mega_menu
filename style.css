@@ -6,6 +6,7 @@ body{
 	background-image: url(Images/back.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	z-index: -1;
 }
 #navbar1{
 	margin-top: 10px;
@@ -75,13 +76,13 @@ body{
 	width: 99%;
 	box-shadow: 0px 4px 3px black;
 	margin-left: 0px;
-	padding-top: 20px;
+	padding-top: 0px;
+	margin-top: 20px;
 }
 .submenu:hover .dropdown{
 	display: block;
 	background-color: #100c08;
 	border-radius: 20px;
-	z-index: -1;
 }
 .submenu:hover .dropdown a{
 	border: none;
@@ -107,19 +108,21 @@ body{
 }
 .signup-box{
 	float: left;
-	text-align: center;
 	background-color: white;
 	color: #100c08;
 	padding: 20px;
 	margin-left: 120px;
 	margin-top: 40px;
-	width: 18%;
-	height: 370px;
+	width: 19%;
+	height: 375px;
 	font-family: 'Playfair Display', serif;
 	border-radius: 5px;
 }
 .form-content{
 	padding: 10px;
+}
+.form-content label{
+	padding-left: 5px;
 }
 .form-content input{
 	width: 100%;
@@ -143,4 +146,19 @@ body{
 	background-color: #27ae60;
 	cursor: pointer;
 
+}
+.body{
+	color: white;
+	max-width: 100%; 
+	text-align: center;
+	margin-top: 150px;
+	font-size: 40px;
+
+}
+.body h2{
+	font-family: 'Playfair Display', serif;
+}
+.body h4{
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
 }
